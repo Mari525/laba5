@@ -36,11 +36,11 @@ function n3() {
 	console.log("№3");
 	var cels = prompt("Введите температуру в градусах Цельсия:");
 	var far = Number(cels) * 1.8 + 32;
-	console.log(cels, "\u00B0C соответствует", far, '\u00B0F');
+	console.log(`${cels}\xB0C соответствует ${far}\xB0F`);
 
 	far = prompt("Введите температуру в градусах Фаренгейта:");
 	cels = (Number(far) - 32) / 1.8;
-	console.log(far,'\u00B0F соответствует', cels,'\u00B0C');
+	console.log(`${far}\xB0F соответствует ${cels}\xB0С`);
 }
 
 function n4() {
